@@ -16,6 +16,7 @@
 			"user": "root",
 			"host": ["47.99.215.130"],
 			"port": "22",
+			"ref": "origin/master",
 			"path": "/home/xcq/www/website",
 			"ssh_options": "StrictHostKeyChecking=no",
 			"repo": "https://github.com/superX6/demo.git",
