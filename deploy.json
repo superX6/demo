@@ -1,1 +1,22 @@
-deploy.json
+{
+	"apps": [
+		{
+			"name": "website",
+			"script": "app.js",
+			"env": {
+				"COMMON_VARIABLE": "true"
+			}
+			"env_production": {
+				"NODE_ENV": "production"
+			}
+		}
+	]
+	"deploy": {
+		"production": {
+			"user": "root",
+			"host": [""],
+			"port"": "22",
+			repo: "git@git"
+		}
+	}
+}
