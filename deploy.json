@@ -14,9 +14,14 @@
 	"deploy": {
 		"production": {
 			"user": "root",
-			"host": [""],
-			"port"": "22",
-			repo: "git@git"
+			"host": ["47.99.215.130"],
+			"port": "22",
+			"path": "/home/xcq/www/website",
+			"ssh_options": "StrictHostKeyChecking=no",
+			"repo": "https://github.com/superX6/demo.git",
+			"env": {
+				"NODE_ENV": "production"
+			}
 		}
 	}
 }
